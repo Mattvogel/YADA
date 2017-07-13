@@ -1,0 +1,20 @@
+{
+  "name": "Yammer Downloader",
+  "description": "unOfficial Yammer Download Extension",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "minimum_chrome_version": "5.0",
+  "permissions": [
+    "tabs",
+    "*://*/*"
+  ],
+  "background": { "scripts": [
+      "background.js"
+  ],
+  "persistent":true
+  },
+  "browser_action": {
+    "default_title": "Store this page",
+    "default_icon": "icon.png"
+  }
+}
